@@ -5,6 +5,7 @@ package Keywords;
  */
 public class StaticKey {
 
+    int a;
     //static variable
     static int rollNumber=1;
     static String StudentName="vasu";
@@ -23,14 +24,18 @@ public class StaticKey {
         System.out.println("in display method : "+StudentName.hashCode()+"\t"+StudentName);
 
     }
+    void show()
+    {
+
+        get();
+    }
+
+    void get()
+    {
+
+    }
 
     //static block
-    static {
-        StaticKey.display();
-        System.out.println("in ststic block");
-        System.out.println(institue.hashCode());
-        System.out.println("in static  block : "+StudentName.hashCode()+"\t"+StudentName);
-    }
 
 
     public static void main(String[] args) {
@@ -40,6 +45,17 @@ public class StaticKey {
         System.out.println(institue.hashCode());
         System.out.println("in main method : "+StudentName.hashCode()+"\t"+StudentName);
         StaticKey.display();
+    }
+    static
+    {
+        System.out.println("hello sonal");
+    }
+    static {
+//        StaticKey.display();
+//        System.out.println("in ststic block");
+//        System.out.println(institue.hashCode());
+//        System.out.println("in static  block : "+StudentName.hashCode()+"\t"+StudentName);
+        System.out.println("hello smita");
     }
 
 }

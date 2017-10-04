@@ -3,6 +3,7 @@ package Keywords;
 /**
  * Created by rajan on 26/9/17.
  */
+
 public class ThisKey {
 
     int id;
@@ -19,6 +20,19 @@ public class ThisKey {
         this.id=id;
         this.name=name;
     }
+    ThisKey(int id)
+    {
+        this();
+    }
+    void methodThis()
+    {
+
+    }
+    void callMethod()
+    {
+        this.methodThis();
+    }
+
     void show(ThisKey t)
     {
         System.out.println("id : "+id+"\t"+"name : "+name);
