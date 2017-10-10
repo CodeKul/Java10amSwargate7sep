@@ -5,8 +5,9 @@ package StringDemo;
  */
 public class StringPractice {
 
-    public static void main(String[] args) {
 
+    void CheckString()
+    {
         String s="vasu";
         String s1="vasu";
         String s2=new String("vasu");
@@ -19,6 +20,12 @@ public class StringPractice {
         {
             System.out.println("different values");
         }
+    }
+
+
+    public static void main(String[] args) {
+
+
 
     }
 

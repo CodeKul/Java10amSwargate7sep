@@ -3,6 +3,8 @@ package Abstraction;
 /**
  * Created by rajan on 4/10/17.
  */
+
+
 abstract class Mobile
 {
     abstract void call();
@@ -14,6 +16,7 @@ abstract class Mobile
         System.out.println("playing games");
     }
 }
+
 
 public class AbstractClass extends Mobile
 
@@ -29,11 +32,14 @@ public class AbstractClass extends Mobile
     }
 
     public static void main(String[] args) {
+
         Mobile mobile=new AbstractClass();
         mobile.call();
         mobile.msg();
         mobile.games();
     }
+
+
 }
 
 
