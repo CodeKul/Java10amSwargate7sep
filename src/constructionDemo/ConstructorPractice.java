@@ -15,16 +15,16 @@ public class ConstructorPractice
         int c=a+b;
         System.out.println("addition of a and b is "+c);
     }
-   static void addition()
-    {
-        c=a+b;
-        System.out.println("static method");
-
-    }
+//   static void addition()
+//    {
+//        c=a+b;
+//        System.out.println("static method");
+//
+//    }
 
     public static void main(String[] args) {
         ConstructorPractice c=new ConstructorPractice(10,20);
        // constructorPractice.addition();
-        ConstructorPractice.addition();
+//        ConstructorPractice.addition();
     }
 }
