@@ -11,7 +11,7 @@ abstract class Mobile
 
     abstract void msg();
 
-    void games()
+    final void games()
     {
         System.out.println("playing games");
     }
@@ -30,6 +30,7 @@ public class AbstractClass extends Mobile
     void msg() {
         System.out.println("msg");
     }
+
 
     public static void main(String[] args) {
 

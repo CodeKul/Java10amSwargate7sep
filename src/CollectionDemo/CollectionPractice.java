@@ -10,6 +10,11 @@ public class CollectionPractice {
 static String a;
     public static void main(String[] args) {
 
+        final byte a=20;
+        final byte b=4;
+        final byte c=a+b;
+        System.out.println(c);
+
         System.out.println("LIST :\n ");
         List<String> list=new ArrayList<>();
         list.add("vasu");
